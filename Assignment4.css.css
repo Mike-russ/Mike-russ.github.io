@@ -1,0 +1,176 @@
+
+
+body {
+    background-color:blanchedalmond;
+}
+
+#login {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Login {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    background-color:#88e2f2;
+}
+
+.Register {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 30px;
+    background-color:#88e2f2;
+}
+
+#login_div {
+    display: none;
+}
+
+#register_div {
+    display: none;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    padding: 50px;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Lato";
+    font-style: normal;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#Assignments {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#name_assignments {
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+#description {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#description_header {
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+#due_date {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#due_date_header {
+    grid-row-start: 5;
+    grid-column-start: 1;
+}
+
+#course {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#course_header {
+    grid-row-start: 6;
+    grid-column-start: 1;
+}
+
+#professor {
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#professor_header {
+    grid-row-start: 7;
+    grid-column-start: 1;
+}
+
+#add_assignment_button {
+    grid-row-start: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#pick_random_assignment {
+    grid-row-start:10;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#assignment_name {
+    font-family: "Lato";
+    font-style: normal;
+    text-align: center;
+    grid-row-start: 12;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size:xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background-color:lightblue;
+}
+
+#results {
+    margin-left: 170px;
+    margin-right: 200px;
+}
+
+li {
+    font-family: "Lato";
+    font-style: normal;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:lightblue;
+
+}
+
+.assignment-name {
+    font-size:x-large;
+    border-bottom-style: solid;
+}
+
+.delete-button {
+    width: 125px;
+    height: 30px;
+    background-color: #a0ebb4;
+}
+
+.edit-button {
+    margin-top: 5px;
+    width: 125px;
+    height: 30px;
+    background-color: #88e2f2;
+}
