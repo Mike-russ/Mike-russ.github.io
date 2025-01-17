@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #16404D, #A6CDC6);
+}
+
+#my_img {
+    border-radius: 20px;
+}
+
+#main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 8%;
+    padding: 2%;
+    background-color:#FBF5DD;
+    border-radius: 20px;
+}
+
+#body_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+#body_paragraph {
+    margin: 5%;
+    font-size: larger;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1%;
+}
