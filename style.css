@@ -42,3 +42,13 @@ body {
     align-items: center;
     margin: 1%;
 }
+
+@media screen and (max-width: 700px) {
+    #body_content {
+        flex-direction: column-reverse;
+    }
+
+    #my_img {
+        margin-bottom: 20px;
+    }
+  }
